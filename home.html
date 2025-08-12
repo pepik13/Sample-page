@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electro Shop • Start</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script defer src="assets/js/scripts.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="brand"><a href="home.html">⚡ Electro Shop </a></div>
+            <from class="search" action="idex.php" method="get">
+                <input type"text" name="q" placeholder="Search electronics..."/>
+                <button type="submit">Search</button>
+            </from>
+            <nav class="nav">
+                <a href="index.php">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Categories ▾</button>
+                    <div class="dropdown-content">
+                        <a href="category.php?c=Laptops">Laptops</a>
+                        <a href="category.php?c=Tablets">Tablets</a>
+                        <a href="category.php?c=Watches">Watches</a>
+                        <a href="category.php?c=Phones">Phones</a>
+                        <a href="ctegory.php?c=Accessories">Accessories</a>
+                    </div>
+                </div>
+                <a href="cart.php">Cart</a>
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
+                <a href="about.php">About Us</a>
+                <a href="contact.php">Contact</a>
+                <a class="admin" href="admin_products.php" title="Login required">Admin</a>
+            </nav>
+        </header>
+        <marquee claass="ticker">🔥 Big Summer Sale — Laptops, Tablets, Watches, Accessories — Limited time only!</marquee>
+        <main class="main">
+            <section class="hero">
+                <div class="slider">
+                    <div class="slides">
+                        <img src="images/banner1.jpg" alt="Hot deals">
+                        <img src="images/banner2.jpg" alt="Work & Study">
+                        <img src="images/banner3.jpg" alt="Smart wearables">
+                    </div>
+                    <button class="prev" aria-label="Previous">‹</button>
+                    <button class="next" aria-label="Next">›</button>
+                </div>
+            </section>
+            <h1>Welcome to Electro Shop</h1>
+            <p>Start here and jump to any section of the store.</p>
+            <div class="grid">
+                <a class="card" href="index.php">
+                    <img src="images/laptop.jpg" alt="Laptop">
+                    <h3>Go to Shop</h3>
+                    <p>Browse all products.</p>
+                </a>
+                <a class="card" href="category.php?c=Laptops">
+                    <img src="images/laptop.jpg" alt="Laptops">
+                    <h3>Laptops</h3>
+                    <p>Work & study picks.</p>
+                </a>
+                <a class="card" href="category.php?c=Tablets">
+                    <img src="images/tablet.jpg" alt="Tablets">
+                    <h3>Tablets</h3>
+                    <p>Light and portable.</p>
+                </a>
+                <a class="card" href="category.php?c=Watches">
+                    <img src="images/watch.jpg" alt="Watches">
+                    <h3>Watches</h3>
+                    <p>Smart wearables.</p>
+                </a>
+                <a class="card" href="category.php?c=Accessories">
+                    <img src="images/headphones.jpg" alt="Accessories">
+                    <h3>Accessories</h3>
+                    <p>Headphones & more.</p>
+                </a>
+                <a class="card" href="cart.php">
+                    <img src="images/cart.jpg" alt="Cart">
+                    <h3>Your Cart</h3>
+                    <p>Review your items.</p>
+                </a>
+                <a class="card" href="login.php">
+                    <img src="images/login.jpg" alt="Login">
+                    <h3>Login</h3>
+                    <p>Customer & admin login.</p>
+                </a>
+                <a class="card" href="register.php">
+                    <img src="images/register.jpg" alt="Register">
+                    <h3>Register</h3>
+                    <p>Create a new account.</p>
+                </a>
+                <a class="card" href="admin_products.php" title="Login as admin">
+                    <img src="images/admin.jpg" alt="Admin">
+                    <h3>Admin Panel</h3>
+                    <p>Manage products & orders.</p>
+                </a>
+                <a class="card" href="about.php">
+                    <img src="images/banner2.jpg" alt="About Us">
+                    <h3>About Us</h3>
+                    <p>Learn more about us.</p>
+                </a>
+                <a class="card" href="contact.php">
+                    <img src="images/contact.jpg" alt="Contact">
+                    <h3>Contact Us</h3>
+                    <p>Get in touch with us.</p>
+                </a>
+            </div>
+       </main>
+        <footer class="footer">
+            <p>© <script>document.write(new Date().getFullYear())</script> Electro Shop • Demo store</p>
+            <p>Follow us on:
+                <a href="https://facebook.com" target="_blank">Facebook</a>,
+                <a href="https://twitter.com" target="_blank">Twitter</a>,
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </p>
+        </footer>
+    </body>
+</html>
